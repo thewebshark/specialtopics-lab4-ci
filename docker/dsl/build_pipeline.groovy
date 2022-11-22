@@ -18,7 +18,7 @@ pipelineJob('build-pipeline-job') {
       scm { 
         git { 
           remote { url(repo) } 
-          branches('main')
+          branches('specialtopics-ci-lab-solution')
           scriptPath('Jenkinsfile') // The location of the Jenkinsfile that defines the pipeline job within the repo
           extensions { }  // required as otherwise it may try to tag the repo, which you may not want 
         } 
