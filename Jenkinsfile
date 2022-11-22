@@ -6,10 +6,6 @@ node {
 
   stage('Build') {
     echo "hello"
-    withMaven (maven: 'maven3') {
-      sh "mvn package"
-    }
   }
   // you should add a test report here
-
 }
