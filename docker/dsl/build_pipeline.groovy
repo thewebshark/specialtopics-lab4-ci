@@ -1,7 +1,7 @@
 pipelineJob('build-pipeline-job') { 
 
   // This is the repo that contains the Jenkinsfile you want to use to define your pipeline
-  def repo = 'https://github.com/ColumbusStateWorkforceInnovation/special-topics-ci-lab'
+  def repo = 'https://github.com/thewebshark/specialtopics-lab4-ci'
 
   description("Your App Pipeline") 
   keepDependencies(false) 
