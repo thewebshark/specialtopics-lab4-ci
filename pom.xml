@@ -31,7 +31,7 @@
 
     <build>
         <plugins> 
-            <!-- This is to tell maven to use Java 8 -->
+            <!-- This is to tell maven to use Java 11 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
